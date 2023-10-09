@@ -1,15 +1,28 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+html{
+    font-family: sans-serif, arial, helvetica;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    /* justify-content: space-between; */
+    flex-direction: column;
 }
 
 .circulo{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+    background-image: url(../img/chica.webp);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
     border-radius: 50%;
 }
