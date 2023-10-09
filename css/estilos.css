@@ -1,28 +1,33 @@
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
-
-html{
-    font-family: sans-serif, arial, helvetica;
+*{  
+    box-sizing: border-box;
 }
 
-body{
+/* BODY */
+body
+{
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
-    flex-direction: column;
+
+
 }
 
-.circulo{
-    background-image: url(../img/chica.webp);
-    background-position: center ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 200px;
-    /* background-color: blue; */
+/* Circulo */
+.avatar{
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
+    border: 10px solid transparent;
+
+    /* background: red url(../img/chica.webp); */
+    background-image: url(../img/chica.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* figcaption */
+.avatar__nombre{
+    text-align: center;
 }
